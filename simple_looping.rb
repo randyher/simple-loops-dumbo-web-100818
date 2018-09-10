@@ -6,8 +6,10 @@ def loop_iterator(number_of_times)
     i+=1
     puts phrase
     if i>number_of_times
+      break
+    end
+  end
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
 end
 
 def times_iterator(number_of_times)
