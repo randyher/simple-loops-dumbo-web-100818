@@ -20,7 +20,7 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-  i=1
+  i=0
   while i<number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
   i+=1 
